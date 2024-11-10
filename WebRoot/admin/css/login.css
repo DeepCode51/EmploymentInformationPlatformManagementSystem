@@ -1,0 +1,112 @@
+/*------------------------------------------------------------------
+Bootstrap Admin Template 
+------------------------------------------------------------------*/
+
+
+body {
+    background:#337ab7;
+    color: #838383;
+    font: 13px/1.7em 'Open Sans';
+}
+
+.input {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #8e8d8d;
+    padding: 11px 15px 10px 50px;
+    background-color: #fdfdfd;
+    width: 255px;
+    display: block;
+    margin: 0;
+    box-shadow: inset 2px 2px 4px #f1f1f1;
+}
+
+
+.center-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding:50px 40px;
+}
+
+    .center-container .login-container {
+        left: 50%;
+        top: 50%;
+        margin-left: -190px;
+        margin-top: -180px;
+        position: absolute;
+        width: 380px;
+        padding:50px 40px;
+        background: #fff;
+        border: 1px solid #d5d5d5;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        
+        box-shadow: 0px 0px 2px #dadada, inset 0px -3px 0px #e6e6e6;
+    }
+    .login-container  .systitle
+    {
+       font-size:25px;
+       font-weight:600;
+       margin-bottom:20px;
+       margin-left:auto;
+       margin-right:auto;
+    }
+
+.form-row {
+    margin-bottom: 20px;
+}
+.form-row:after{
+    
+    clear: both;
+    content: "abc";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+
+}
+.center-container .login-container h1 {
+    margin-bottom: .4em;
+    color: #525252;
+}
+
+.login-extra {
+    display: block;
+    width: 300px;
+    text-align: left;
+    line-height: 19px;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.fn-righ {
+    float: right;
+}
+
+
+@media (max-width: 480px) {
+
+    .account-container {
+        width: 280px;
+        margin-top: 35px;
+    }
+
+    .login-fields input {
+        width: 160px;
+    }
+
+    .login-social {
+        width: 100%;
+    }
+
+    .twitter {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    .register .login-fields input {
+        width: 204px;
+        padding-left: 6px;
+    }
+}

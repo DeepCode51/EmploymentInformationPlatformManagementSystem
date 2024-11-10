@@ -1,0 +1,334 @@
+*
+{
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	line-height: 1.5;
+	z-index: 1;
+	margin: auto;
+	overflow-y:hidden;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+li, dd
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+	color: Black;
+}
+img
+{
+	border: none;
+}
+.clear
+{
+	clear: both;
+}
+.bgtop
+{
+	background:#139813;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 42px;
+	letter-spacing: 1px;
+	line-height: 44px;
+	overflow: hidden;
+	padding-left: 20px;
+	text-align: left;
+}
+.bgtop img
+{
+	margin: 10px 10px 10px 0;
+	vertical-align: middle;
+}
+
+.grey
+{
+	background-color: #E8EBF0;
+}
+
+dl.current
+{
+	background: none repeat 0 0 #E8EBF0;
+	clear: both;
+	margin: 0;
+}
+dl.bitem2
+{
+	display: block;
+	margin: 0;
+}
+dl.current dt, dl.bitem2 dt
+{
+	/*background: url( "../images/dtbg.jpg" ) repeat-x 0 0;*/
+	background:#5cb85c;
+	border:1px solid #139813;
+	cursor: pointer;
+	height: 43px;
+	letter-spacing: 1px;
+	display: block;
+	padding-left: 20px;
+	text-align: left;
+}
+dl.current dt
+{
+	height: 44px;
+}
+dl.current dt img, dl.bitem2 dt img
+{
+	margin: 10px 10px 10px 0;
+	vertical-align: middle;
+}
+
+dl.current dt b, dl.bitem2 dt b
+{
+	color: #2F445B;
+	line-height: 44px;
+}
+dl.current dd, dl.bitem2 dd
+{
+	background-color: #52b552;
+	padding: 3px;
+}
+
+
+
+
+div.items
+{
+	clear: both;
+	height: 0;
+	padding: 0;
+}
+.sitemu li a
+{
+	color: #3F4651;
+	letter-spacing: 1px;
+}
+.sitemu li
+{
+	background: url( "../images/class.gif" ) no-repeat 15px 1px;
+	line-height: 22px;
+	padding: 0 0 0 30px;
+	text-align: left;
+}
+
+.sitemu li:hover
+{
+	background: url( "../images/class.gif" ) no-repeat 15px 1px #fff;
+	line-height: 22px;
+	text-align: left;
+}
+.sitemu li.selected
+{
+	background: url( "../images/class.gif" ) no-repeat 15px 1px #0f8a11;
+	line-height: 22px;
+	color:#fff;
+	font-weight:600;
+	text-align: left;
+}
+.sitemu li.selected a
+{
+	color:#fff;
+	font-weight:600;
+	
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+.hide
+{
+	display: none;
+}
+.show
+{
+	display: block;
+}
+.fleft
+{
+	float: left;
+	
+}
+
+
+
+.oddRow
+{
+	background-color: #ffffff;
+}
+.evenRow
+{
+	background-color: #F7F7F7;
+}
+.activeRow
+{
+	background-color: #CCCCCC;
+}
+
+
+
+.search-box
+{
+	border-bottom: 1px solid #CCCCCC;
+	height: 22px;
+	margin-bottom: 2px;
+	padding: 10px 0 10px 15px;
+}
+
+.left
+{
+	border-right: 1px solid #B4B7BA;
+	left: 0;
+	position: absolute;
+	top: 66px;
+	width: 145px;
+    background:#4cae4c;
+	height: 100%;
+	
+}
+
+.right
+{
+	bottom: 0px;
+	position: absolute;
+	right: 0px;
+	top: 66px;
+	z-index: 7;
+	left: 147px;
+	 padding-bottom:10px;
+	 overflow:auto;
+}
+
+
+.head
+{
+	background: #5cb85c;
+	height: 66px;
+	position: relative;
+	width: 100%;
+	
+}
+
+
+.head-account{
+	
+	float:right;
+	margin-right:20px;
+	
+}
+.head-account .label-text
+{
+	float:left;
+	line-height:66px;
+	font-size:16px;
+	color:#fff;
+	
+}
+.head-account .account-drop{
+	
+	float:left;
+	padding-top:23px;
+	padding-left:5px;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	color:#fff;
+	
+}
+
+
+.footer
+{
+	position: fixed;
+	height: 30px;
+	background-color: #344c66;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	color: #fff;
+	text-align: right;
+	z-index: 1000;
+}
+.footer p
+{
+	padding-right: 15px;
+}
+
+
+
+.
+
+.page
+{
+	margin-bottom: 40px;
+}
+.page a
+{
+	color: #2F445B;
+}
+.page_num
+{
+	color: #2F445B;
+	float: left;
+	padding-left: 20px;
+	width: 150px;
+}
+.manu
+{
+	margin: 3px;
+	padding: 3px;
+	text-align: right;
+	position: relative;
+}
+.manu a
+{
+	border: 1px solid #EEEEEE;
+	color: #2F445B;
+	margin: 2px;
+	cursor: pointer;
+	padding: 2px 5px;
+	text-decoration: none;
+}
+.manu a:hover, .manu a:active
+{
+	border: 1px solid #999999;
+	color: #666666;
+}
+.manu .current
+{
+	background-color: #2F445B;
+	border: 1px solid #2F445B;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	margin: 4px 2px 0px 2px;
+	padding: 2px 5px;
+	position: relative;
+}
+.manu .disabled
+{
+	border: 1px solid #EEEEEE;
+	color: #DDDDDD;
+	margin: 2px;
+	padding: 2px 5px;
+}
+
+
+
+
+

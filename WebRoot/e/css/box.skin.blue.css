@@ -1,0 +1,41 @@
+/**主题框颜色*/
+.box .title {
+    border-bottom: 3px solid #b3cfee !important;
+    color: #188eee;
+    background-color:White;
+
+}
+/*标题*/
+.box .title strong
+{
+	color:#188eee;
+}
+.box .content
+{
+	background-color:White;
+}
+
+.show-info .title {
+    border-bottom: 2px solid #b3cfee !important;
+    color: #188eee !important;
+}
+.show-info .title strong {
+    color: #188eee !important ;
+}
+.page-title {
+    background-color: #f6f6f6;
+    border: 1px solid #d9e3e5;
+    color: #188eee !important;
+}
+
+.btn-default{
+    background-color: #188eee !important;
+    color: #fff;
+   
+}
+
+#side-menu .current a, #side-menu .current a:hover {
+    
+    color: #fff;
+    background: #188eee !important;
+}
